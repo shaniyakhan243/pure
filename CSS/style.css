@@ -21,6 +21,11 @@
     }
 }
 
+@media (min-width: 767px) {
+    .aftervideo{
+        display: none;
+    }
+}
 
 @font-face{
     font-family:Handwritten;
@@ -619,14 +624,18 @@ footer{
 
 .aftervideo{
     position: relative;
-    top: 4%;
+    top: 32%;
     width: 100%;
 }
 
 .aftervideo .textual {
-    padding: 3%;
+    padding: 2%;
 }
 
 .aftervideo .textual h3{
     font-family: fantasy;
+}
+
+.aftervideo .videoofproducts video{
+    width: 100%;
 }
