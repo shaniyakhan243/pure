@@ -33,7 +33,7 @@
 }
 
 body{
-    overflow-x: hidden;
+    overflow: scroll;
 }
 
 #model {
@@ -624,7 +624,7 @@ footer{
 
 .aftervideo{
     position: relative;
-    top: 32%;
+    top: 1.5%;
     width: 100%;
 }
 
@@ -638,4 +638,14 @@ footer{
 
 .aftervideo .videoofproducts video{
     width: 100%;
+}
+
+.aftervideo .carousel-inner{
+    width: 100%;
+    height: 1000px;
+    left: 0%;
+    top: 0%;
+    background-image: url(../IMG/carousel/bg1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
