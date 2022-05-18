@@ -1374,7 +1374,7 @@ footer .list-inline-item{
 }
 
 .aftervideo .row .col img {
-    width: 100%;
+    width: 100%!important;
 }
 
 .aftervideo .row .col{
@@ -1382,53 +1382,53 @@ footer .list-inline-item{
 }
 
 .aftervideo .img-identify{
-    width: 100%;
+    width: 100%!important;
 }
 
 .aftervideo .img-identify img{
-    width: 100%;
-    padding: 6%;
+    width: 100%!important;
+    padding: 6%!important;
 }
 
 .aftervideo #s-cards {
-    margin: 2%;
-    border: 1px solid grey;
+    margin: 2%!important;
+    border: 1px solid grey!important;
 }
 
 .aftervideo .card-deck {
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
+    display: -webkit-box!important;
+    -webkit-box-orient: horizontal!important;
 }
 
 .aftervideo .all-products .rows-over-here .row{
-    width: 100%;
+    width: 100%!important;
 }
 
 .aftervideo .all-products .rows-over-here .row .card-deck .card .card-img-top{
-    position: relative;
-    right: 24%;
-    width: 151%;
+    position: relative!important;
+    right: 24%!important;
+    width: 151%!important;
 }
 
 .aftervideo .all-products .rows-over-here .row .card-deck .card {
-    width: 50%;
-    left: 3%;
+    width: 50%!important;
+    left: 3%!important;
 }
 
 .aftervideo .all-products .rows-over-here .row .card-deck .card .card-body{
-    left: 8%;
-    position: relative;
+    left: 8%!important;
+    position: relative!important;
 }
 
 .aftervideo .all-products .rows-over-here .row .card-deck .card .card-body h3, 
 .aftervideo .all-products .rows-over-here .row .card-deck .card .card-body h4{
-    width: 80%;
-    text-align: center;
+    width: 80%!important;
+    text-align: center!important;
 }
 
 .aftervideo .all-products h1{
-    text-align: center;
-    font-size: xxx-large;
-    font-weight: 700;
-    padding-bottom: 6%;
+    text-align: center!important;
+    font-size: xxx-large!important;
+    font-weight: 700!important;
+    padding-bottom: 6%!important;
 }
