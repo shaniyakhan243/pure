@@ -1300,24 +1300,21 @@ footer .list-inline-item{
 
 .aftervideo .black-heading {
     position: relative;
-    top: 6vh;
+    padding-top: 6vh;
 }
 
-<<<<<<< HEAD
-=======
 .aftervideo .black-heading-02 {
     position: relative;
-    bottom: 62vh;
 }
 
->>>>>>> parent of 9aff892 (18-05-2022 02)
+
 .aftervideo .textual {
     padding: 2%;
 }
 
 .aftervideo .carousel {
-    top: 6vh;
     position: relative;
+
 }
 
 .aftervideo .textual h3{
@@ -1330,7 +1327,7 @@ footer .list-inline-item{
 
 .aftervideo .carousel-inner{
     width: 100%;
-    height: 1000px;
+    height: fit-content;
     left: 0%;
     top: 0%;
     background-image: url(../IMG/carousel/bg1.jpg);
