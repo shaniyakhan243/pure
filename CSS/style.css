@@ -1346,3 +1346,89 @@ footer .list-inline-item{
 .aftervideo .mobile-view-video video{
     width: 100%!important;
 }
+
+.aftervideo .cards .photo01{
+    width: 100%;
+}
+
+.aftervideo .cards .photo01 img{
+    width: inherit;
+    padding: 6%;
+}
+
+.aftervideo .cards .heading-01{
+    text-align: center;
+    font-weight: 900;
+}
+
+.aftervideo .cards .some-p-text p{
+    padding: 6%;
+    padding-top: 2%;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 450;
+}
+
+.aftervideo .row {
+    padding: 0%!important;
+}
+
+.aftervideo .row .col img {
+    width: 100%;
+}
+
+.aftervideo .row .col{
+    max-width: 33.3333%!important;
+}
+
+.aftervideo .img-identify{
+    width: 100%;
+}
+
+.aftervideo .img-identify img{
+    width: 100%;
+    padding: 6%;
+}
+
+.aftervideo #s-cards {
+    margin: 2%;
+    border: 1px solid grey;
+}
+
+.aftervideo .card-deck {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+.aftervideo .all-products .rows-over-here .row{
+    width: 100%;
+}
+
+.aftervideo .all-products .rows-over-here .row .card-deck .card .card-img-top{
+    position: relative;
+    right: 24%;
+    width: 151%;
+}
+
+.aftervideo .all-products .rows-over-here .row .card-deck .card {
+    width: 50%;
+    left: 3%;
+}
+
+.aftervideo .all-products .rows-over-here .row .card-deck .card .card-body{
+    left: 8%;
+    position: relative;
+}
+
+.aftervideo .all-products .rows-over-here .row .card-deck .card .card-body h3, 
+.aftervideo .all-products .rows-over-here .row .card-deck .card .card-body h4{
+    width: 80%;
+    text-align: center;
+}
+
+.aftervideo .all-products h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 700;
+    padding-bottom: 6%;
+}
