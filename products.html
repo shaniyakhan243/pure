@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script type="text/javascript" src="js/skrollr.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/three.js"></script>
+    <script type="text/javascript" src="js/_main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script type="text/javascript" src="http://tympanus.net/Development/Arctext/js/jquery.arctext.js"></script>
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" id="navNav">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">Home </a>
+              <a class="nav-item nav-link" href="#">About Us</a>
+              <a class="nav-item nav-link" href="#">Products</a>
+              <a class="nav-item nav-link" href="#">Shop</a>
+            </div>
+            <a class="navbar-brand" href="#" style="margin-left: 6%;"><img src="IMG/logo/PPLogoIN2000.png" alt=""></a>
+            <div class="navbar-nav mt-2 mt-lg-0" style="margin-left: 4%!important;">
+              <a class="nav-item nav-link" href="#">Cart</a>
+              <a class="nav-item nav-link" href="#">Privacy Policy</a>
+              <a class="nav-item nav-link" href="#">Terms & Conditions</a>
+              <a class="nav-item nav-link" href="#">Contact Us</a>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <div class="creative">
+        <img src="IMG/products/creative.png" alt="">
+    </div>
+
+    <div class="allproducts">
+        <h1 style="text-align: center; padding: 2%; font-family: 'Asap-Condensed'; font-weight: bold;">EXPLORE OUR PRODUCTS</h1>
+        <div class="row" style="padding: 0%; padding-bottom: 2%;">
+            <div class="card-deck" style="padding: 0; padding-left: 2%; padding-bottom: 2%; padding-top: 2%;">
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coookies.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 cc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Cookies & Cream Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/chocolate.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 choco.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Chocolate Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coffee.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 esspr.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Espresso Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/vanilla.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 vnla.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Vanilla Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck" style="padding: 0; padding-left: 2%; padding-bottom: 2%;">
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coookies.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 cc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Cookies & Cream Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/chocolate.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 choco.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Chocolate Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coffee.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 esspr.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Espresso Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/vanilla.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 vnla.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Vanilla Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck" style="padding: 0; padding-left: 2%; padding-bottom: 2%;">
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coookies.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 cc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Cookies & Cream Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/chocolate.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 choco.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Chocolate Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coffee.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 esspr.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Espresso Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/vanilla.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 vnla.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Vanilla Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck" style="padding: 0; padding-left: 2%; padding-bottom: 2%;">
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coookies.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 cc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Cookies & Cream Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/chocolate.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 choco.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Chocolate Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/coffee.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 esspr.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Espresso Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(IMG/products/FlavorsBG/vanilla.png); background-size: cover;">
+                    <img class="card-img-top" src="IMG/products/Organic P80/organic p80 vnla.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Pure Powders® ORGANIC P80 Vanilla Flavour 1000g</h6>
+                        <h5>Rs. 5000</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-basic">
+        <footer  >
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">© 2020 Musclestadt Sporternaerung India Private Limited. All Rights Reserved.</p>
+        </footer>
+      </div>
+        
+        <!-- 💁 Include both scripts below to support all browsers! -->
+        
+        <!-- Loads <model-viewer> for modern browsers: -->
+        <script type="module"
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+        </script>
+        
+        <!-- Loads <model-viewer> for old browsers like IE11: -->
+        <script nomodule
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+        </script>
+        <script>
+            (() => {
+              const modelViewer = document.querySelector('#orbit-demo');
+              const orbitCycle = [
+                '90deg 62deg ',
+                '62deg 90deg ',
+                modelViewer.cameraOrbit
+              ];
+            
+              setInterval(() => {
+                const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
+                modelViewer.cameraOrbit =
+                    orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
+              }, 3000);
+            })();
+        </script>
+        <script>
+          ( function( $ ) {
+            // Init Skrollr
+          var s = skrollr.init({
+            render: function(data) {
+              //Debugging - Log the current scroll position.
+              //console.log(data.curTop);
+              }
+            });
+          } )( jQuery );
+      </script>
+      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script type="text/javascript" src="JS/script.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <!-- MDB -->
+    <script btype="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+</body>
+</html>

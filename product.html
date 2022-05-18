@@ -28,77 +28,343 @@
     <script type="text/javascript" src="http://tympanus.net/Development/Arctext/js/jquery.arctext.js"></script>
     <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navNav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Home </a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link" href="#">Disabled</a>
-              </div>
-              <a class="navbar-brand" href="#" style="margin-left: 6%;">PURE POWDERS</a>
-              <div class="navbar-nav mt-2 mt-lg-0" style="margin-left: 4%!important;">
-                <a class="nav-item nav-link" href="#">Home </a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link" href="#">Disabled</a>
-              </div>
-            </div>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home </a>
+            <a class="nav-item nav-link" href="#">About Us</a>
+            <a class="nav-item nav-link" href="#">Products</a>
+            <a class="nav-item nav-link" href="#">Shop</a>
+          </div>
+          <a class="navbar-brand" href="#" style="margin-left: 6%;"><img src="IMG/logo/PPLogoIN2000.png" alt=""></a>
+          <div class="navbar-nav mt-2 mt-lg-0" style="margin-left: 4%!important;">
+            <a class="nav-item nav-link" href="#">Cart</a>
+            <a class="nav-item nav-link" href="#">Privacy Policy</a>
+            <a class="nav-item nav-link" href="#">Terms & Conditions</a>
+            <a class="nav-item nav-link" href="#">Contact Us</a>
+          </div>
+        </div>
+    </nav>
+  </header>
+    <div class="button-flavors">
+      <ul style="list-style-type: none;
+      z-index: 7;
+      position: absolute;
+      left: 63%;
+      width: 32%;
+      margin-top: 4%;">
+              <li>
+                <a id="choco-flavor">
+                  <img style="width: 20%;" id="img-choco-flavor" src="IMG/flavors/bg/choco/glasses/chocolate-one-more.png">
+                  <!-- <span class="chocolate-active-hover">Chocolate</span> -->
+                </a>
+              </li>
+              <li><a id="strawberry-flavor"><img id="img-strawberry-glass" style="width:20%;" src="IMG/flavors/bg/choco/glasses/stawberry-one-more.png"></a></li>
+              <li><a id="cookie-flavor"><img style="width:20%;" src="IMG/flavors/bg/choco/glasses/cookie-one-more.png"></a></li>
+              <li><a id="coffee-flavor"><img style="width:20%;" src="IMG/flavors/bg/choco/glasses/coffee-one-more.png"></a></li>
+              <li><a id="vanilla-flavor"><img style="width:20%;" src="IMG/flavors/bg/choco/glasses/vanilla-one-more.png"></a></li>
+      </ul>
+    </div>
+
+    <div class="Section-05">
+        <div class="row" id="choco-row">
+          <div class="col-lg-12">
+            <img src="IMG/flavors/bg/choco/choco-bg/top-left.png" class="choco-top-left" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1000">
+            <img src="IMG/flavors/bg/choco/choco-bg/left.png" class="choco-left" data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="1000">
+            <img src="IMG/products/Organic P80/organic p80 choco.png" class="product-choco-t80" style="margin-top: 6%">
+            <img src="IMG/flavors/bg/choco/choco-bg/top-right.png" class="choco-top-right" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1000">
+            <img src="IMG/flavors/bg/choco/choco-bg/bg-right.png" class="choco-right"  data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="1000">
+          </div>
+        </div>
+    
+      <div class="row" id="strawberry-row">
+        <div class="col-lg-12">
+          <img src="IMG/flavors/bg/strawberry/top-left-corner.png" class="strawberry-top-left" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/strawberry/middle-left-corner.png" class="strawberry-middle-left" data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/strawberry/bottom-left-corner.png" class="strawberry-bottom-left" data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/products/Organic P80/organic p80.png" style="margin-top: 6%" class="product-choco-t80">
+          <img src="IMG/flavors/bg/strawberry/top-right-corner.png" class="top-right-corner" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/strawberry/middle-right-corner.png" class="middle-right-corner"  data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/strawberry/bottom-right-corner.png" class="bottom-right-corner"  data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+        </div>
+      </div>
+
+      <div class="row" id="cookie-row">
+        <div class="col-lg-12">
+          <img src="IMG/flavors/bg/oreo/left-top-cookie.png" class="cookie-top-left" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/oreo/mid-left-1-cookie.png" class="cookie-middle-left-1" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/oreo/mid-left-2-cookie.png" class="cookie-middle-left-2" data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/oreo/left-bottom-cookie.png" class="cookie-bottom-left" data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/products/Organic P80/organic p80 cc.png" style="margin-top: 6%" class="product-choco-t80">
+          <img src="IMG/flavors/bg/oreo/right-top-cookie.png" class="top-right-cookie" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/oreo/mid-right-cookie.png" class="middle-right-cookie"  data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/oreo/right-bottom-cookie.png" class="bottom-right-cookie"  data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+        </div>
+      </div>
+
+      <div class="row" id="coffee-row">
+        <div class="col-lg-12">
+          <img src="IMG/flavors/bg/coffee/coffee beans/left-upper-coffee.png" class="coffee-top-left" data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/coffee/coffee beans/left-lower-coffee.png" class="coffee-middle-left" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/products/Organic P80/organic p80 esspr.png" style="margin-top: 6%" class="product-choco-t80">
+          <img src="IMG/flavors/bg/coffee/coffee beans/right-top-coffee.png" class="top-right-coffee" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/coffee/coffee beans/right-middle-coffee.png" class="middle-right-coffee"  data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/coffee/coffee beans/right-low-coffee.png" class="bottom-right-coffee"  data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+        </div>
+      </div>
+
+      <div class="row" id="vanilla-row">
+        <div class="col-lg-12">
+          <img src="IMG/flavors/bg/vanilla/left-bottom-vanilla.png" class="vanilla-top-left" data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/vanilla/left-middle-vanilla.png" class="vanilla-middle-left-1" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/vanilla/left-middle-2-vanilla.png" class="vanilla-middle-left-2" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/vanilla/left-bottom-vanilla.png" class="vanilla-middle-left-3" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/products/Organic P80/organic p80 vnla.png" style="margin-top: 6%" class="product-choco-t80">
+          <img src="IMG/flavors/bg/vanilla/right-top-vanilla.png" class="top-right-vanilla" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/vanilla/right-middle-vanilla.png" class="middle-right-vanilla"  data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <img src="IMG/flavors/bg/vanilla/right-bottom-vanilla.png" class="bottom-right-vanilla"  data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="1000">
+        </div>
+      </div>
+    </div>
     <!-- 3D content for your site: -->
   <div class="firstsection" >
-    <div class="bg-img">
-      <img src="img/products/bg/whitepowders.png" style="opacity: 0.7;">
+    <div class="description-of-product">
+      <h1>Pure Powders® ORGANIC P80 Chocolate Flavour 2300g</h1>
+      <h2>₹3,500.00</h2>
+      <h5>PURE POWDERS® Bio (Organic) Series – Sustainable Health & Muscle Building with Exceptional Quality „Made in Germany“</h5>
+      <p>Free from Hormones (rBsT and eBgH), Pesticides, Chemicals, Genetic Engineering (GMOs), Antibiotics, Synthetic/Artificial Sweeteners, Flavours & Colours), Emulsifiers and Thickeners.<br><br>
+
+        in 2018 PURE POWDERS® was founded with a clear goal and a mission. This being to provide consumers superior foodstuffs, which are 100% Organic. No exceptions. Our mission is to help support the change and future direction of mainstream farming practices that will benefit both the health of the environment and that of our customers.<br><br>
+        
+        Over many years, changes in the way farming is undertaken has seen the rise of Genetically Modified crops (GMOs) and the addition of Growth Hormones and Antibiotics in livestock feeds. Alongside this, large corporations have developed various Chemical Cocktails in the forms of Artificial and Natural Aromas, Flavours, Colours, Additives and Preservatives. The consumption of these products in our day to day lives has highlighted possible links too many health related issues and problems.<br><br>
+        
+        PURE POWDERS® is here to provide an alternative! An alternative developed with the use of 100% Organic ingredients while still providing both superior taste and quality! We source, where possible our ingredients locally to help reduce our carbon footprint along with utilising as much recyclable and sustainable materials for our product packaging!
+      </p>
+      <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+      <button type="button" class="btn btn-light">Add to cart</button>
+      <p class="related-text"><br><span style="color: black;">SKU: PP-OP80-CHO1000 Category:</span> Proteins Tags: Bio, Blend, Casein, Dope Free, High Quality, Hormone Free, Made in Germany, Milk Protein, non-GMO, non-rBgh, non-rBst, Organic</p>
     </div>
-    <!-- <div class="milkSplash">
-      <img src="img/products/bg/whitepowder.png">
-    </div> -->
     <model-viewer id="model" style="background:transparent;" environment-image="neutral" class="model3d" id="orbit-demo" camera-controls camera-orbit="62deg 80deg" interpolation-decay="200" shadow-intensity="0.2" shadow-softness="0" exposure="0.5" src="./3D/pure powders.glb" alt="A 3D model of a pure powder">
     </model-viewer>
-    <div class="bg-img">
-      <img style="opacity: 1; position: absolute; top: 90%; z-index: 5;" src="img/products/bg/interlink-bg.png" style="opacity: 0.7;">
+    <div class="tabsnavs" style="background:  #f5f5f5;">
+          <!-- Tabs navs -->
+          <ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="ex3-tab-1"
+                data-mdb-toggle="tab"
+                href="#ex3-tabs-1"
+                role="tab"
+                aria-controls="ex3-tabs-1"
+                aria-selected="true"
+                >INTRODUCTION</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex3-tab-2"
+                data-mdb-toggle="tab"
+                href="#ex3-tabs-2"
+                role="tab"
+                aria-controls="ex3-tabs-2"
+                aria-selected="false"
+                >INGREDIENTS</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex3-tab-3"
+                data-mdb-toggle="tab"
+                href="#ex3-tabs-3"
+                role="tab"
+                aria-controls="ex3-tabs-3"
+                aria-selected="false"
+                >MECHANISM</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex3-tab-4"
+                data-mdb-toggle="tab"
+                href="#ex3-tabs-4"
+                role="tab"
+                aria-controls="ex3-tabs-4"
+                aria-selected="false"
+                >QUALITY</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex3-tab-5"
+                data-mdb-toggle="tab"
+                href="#ex3-tabs-5"
+                role="tab"
+                aria-controls="ex3-tabs-5"
+                aria-selected="false"
+                >CONCLUDE</a>
+            </li>
+          </ul>
+          <!-- Tabs navs -->
+
+          <!-- Tabs content -->
+          <div class="tab-content" id="ex2-content">
+            <div
+              class="tab-pane fade show active"
+              id="ex3-tabs-1"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-1">
+              <p>Pure Powders® presents ORGANIC P80, made in Germany with highest quality standards which helps helps to support overall health, wellbeing, immunity and also accelerate recovery, build lean muscle and trigger fat loss.</p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-2"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-2">
+              <p>
+                Milk protein concentrate, cane sugar, fat reduced cocoa powder.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-3"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-3">
+              <p>
+                This all-natural milk protein formula contains whey and casein both. During workout, the muscles break and protein is needed to repair them. Whey is a fast-acting protein so provides an immediate flow of amino acids into the blood for muscle building. Since muscles burn calories even at rest so increase in muscle mass also increases the body’s metabolism and thus decreases the fat mass. The concentrate is also rich in micro fractions which helps to trigger fat loss. Protein also has a thermogenic effect which means you burn more calories by eating protein as compared to carbohydrates and fat, thus, triggering fat loss. <br><br>
+                Casein is a slow acting protein so provides a continuous stream of amino acids for a prolonged period and helps you to feel full thus triggering fat loss. Casein also suppresses the hunger hormone, ghrelin, thus helps to provide satiety and aiding in weight loss. 
+              </p>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-4"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-3">
+              <p>
+                The product is sourced from the milk of cows of Swiss and German origin with controlled organic farming techniques. The cows are fed on organic feeds and in open pastures which reduces the stress levels in the animal thus reducing the chances of being sick. Being an organic product, it is free from GMOs, rBGH, rBST, antibiotics, artificial flavours, additives, sweeteners and with zero gums and fillers.
+              </p>
+            </div>
+
+          <div
+            class="tab-pane fade"
+            id="ex3-tabs-5"
+            role="tabpanel"
+            aria-labelledby="ex3-tab-3">
+            <p>
+              Think clean, healthy and pure, think Pure Powders®.
+            </p>
+          </div>
+
+          <!-- Tabs content -->
+        </div>
     </div>
-    <div class="text-round">
-      <h3  data-aos="zoom-in " id="text" style="font-family: Handwritten;">Available in more flavors</h3>
-      <a href="#parentcarousel"><ion-icon class="arrow1" name="arrow-down" ></ion-icon></a>
+
+  <div class="some-products">
+    <h1>RELATED PRODUCTS</h1>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" style="background-image: url(IMG/products/FlavorsBG/coookies.png); background-size: cover;">
+                <img class="card-img-top" src="IMG/products/Organic P80/organic p80 cc.png" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Pure Powders® ORGANIC P80 Cookies & Cream Flavour 1000g</h6>
+                    <h5>Rs. 5000</h5>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(IMG/products/FlavorsBG/chocolate.png); background-size: cover;">
+                <img class="card-img-top" src="IMG/products/Organic P80/organic p80 choco.png" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Pure Powders® ORGANIC P80 Chocolate Flavour 1000g</h6>
+                    <h5>Rs. 5000</h5>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(IMG/products/FlavorsBG/coffee.png); background-size: cover;">
+                <img class="card-img-top" src="IMG/products/Organic P80/organic p80 esspr.png" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Pure Powders® ORGANIC P80 Espresso Flavour 1000g</h6>
+                    <h5>Rs. 5000</h5>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(IMG/products/FlavorsBG/vanilla.png); background-size: cover;">
+                <img class="card-img-top" src="IMG/products/Organic P80/organic p80 vnla.png" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Pure Powders® ORGANIC P80 Vanilla Flavour 1000g</h6>
+                    <h5>Rs. 5000</h5>
+                </div>
+            </div>
     </div>
   </div>
 
-  <!-- Div for carousel of flavors.-->
-  <div class="secondsection" id="parentcarousel">
-    <div  id="carousel">
-        <div class="slick-slider">
-          <div><img src="IMG/carousel/chocolate.png" ></div>
-          <div><img src="IMG/carousel/coffee.png" ></div>
-          <div><img src="IMG/carousel/strawberry.png" ></div>
-          <div><img src="IMG/carousel/vanilla.png" ></div>
+  <div class="footer-basic">
+    <footer  >
+        <div class="social">
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
         </div>
-    </div>
-  </div> 
-
-  <!-- Section for athelets and description of product-->
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="video" id="container">
-        <a href="#" id="text-on" class="text-on-physique" >Nam of the athelete , maybe</a>
-        <video autoplay muted loop id="on-hover" class="sculpted-physique"> 
-          <source src="Video/PurePowders.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <div class="container">
-        <p>some description of the product here</p>
-      </div>
-    </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">© 2020 Musclestadt Sporternaerung India Private Limited. All Rights Reserved.</p>
+    </footer>
   </div>
     
     <!-- 💁 Include both scripts below to support all browsers! -->
@@ -145,5 +411,55 @@
   <script>
     AOS.init();
   </script>
+  <script>
+    $(document).ready(function() {
+        $("#choco-flavor").click(function() {
+            $("#choco-row").css("display", "block");
+            $("#strawberry-row").css("display", "none");
+            $("#cookie-row").css("display", "none");
+            $("#coffee-row").css("display", "none");
+            $("#vanilla-row").css("display", "none");
+        });
+
+        $("#strawberry-flavor").click(function() {
+            $("#choco-row").css("display", "none");
+            $("#strawberry-row").css("display", "block");
+            $("#cookie-row").css("display", "none");
+            $("#coffee-row").css("display", "none");
+            $("#vanilla-row").css("display", "none");
+        });
+
+        $("#cookie-flavor").click(function() {
+            $("#choco-row").css("display", "none");
+            $("#strawberry-row").css("display", "none");
+            $("#cookie-row").css("display", "block");
+            $("#coffee-row").css("display", "none");
+            $("#vanilla-row").css("display", "none");
+        });
+
+        $("#coffee-flavor").click(function() {
+            $("#choco-row").css("display", "none");
+            $("#strawberry-row").css("display", "none");
+            $("#cookie-row").css("display", "none");
+            $("#coffee-row").css("display", "block");
+            $("#vanilla-row").css("display", "none");
+        });
+
+        
+        $("#vanilla-flavor").click(function() {
+            $("#choco-row").css("display", "none");
+            $("#strawberry-row").css("display", "none");
+            $("#cookie-row").css("display", "none");
+            $("#coffee-row").css("display", "none");
+            $("#vanilla-row").css("display", "block");
+        });
+    });
+  </script>
+      <!-- MDB -->
+      <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"
+      >
+    </script>
 </body>
 </html>

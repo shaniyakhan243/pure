@@ -15,9 +15,7 @@
         display: none;
     }
     #slide-1 video{
-        width: 100%;
-        height: auto;
-        top: 6%
+        display: none;
     }
 }
 
@@ -32,8 +30,13 @@
     src: url(../fonts/handwritten.ttf);
 }
 
+@font-face{
+    font-family:Asap-Condensed;
+    src: url(../fonts/AsapCondensed-Regular.ttf);
+}
+
 body{
-    overflow: scroll;
+    overflow: scroll!important;
 }
 
 #model {
@@ -45,6 +48,11 @@ header #navNav{
     position: fixed!important;
     z-index: 10!important;
     width: 100%!important;
+    background: white;
+}
+
+a:hover, a:active{
+    text-decoration: none;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -54,6 +62,47 @@ header #navNav{
     align-items: center;
 }
 
+#product-iden .row .col h1{
+    padding-top: 0%!important;
+}
+
+.navbar{
+    border-radius: 0px;
+    box-shadow: #8080809c 2px 5px 10px;
+}
+
+#slide-1 .information h1{
+    padding-top: 3%!important;
+    font-family: Asap-Condensed !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    font-size: 3.5rem !important;
+}
+
+#slide-1 .information .row{
+    padding: 8%;
+    padding-top: 3%;
+}
+
+#slide-1 .information .row .col{
+    max-width: 50%!important;
+}
+
+#slide-1 .information .row .col .card{
+    width: 100%!important;
+}
+
+#slide-1 .information .row .col .card .card-body h2{
+    font-family: Asap-Condensed !important;
+    text-align:start; 
+    font-weight: bold;
+
+}
+
+#slide-1 .information .row .col .card .card-body .card-text{
+    font-size: 18px;
+    font-family: Asap-Condensed !important;
+}
 /* CSS */
 .hsContainer {
     display: table;
@@ -106,6 +155,13 @@ header #navNav{
     position: relative;
     text-align: center;
     background: white;
+}
+
+#slide-1 .text-bw h1{
+    font-family: 'Asap-Condensed'!important;
+    font-weight: 800!important;
+    line-height: 1.2!important;
+    font-size: 3.5rem!important;
 }
 
 .slick-slider {
@@ -300,7 +356,7 @@ header #navNav{
     width: 100%;
     padding-left: 18%;
     background: transparent;
-    left: -4%;
+    left: 0%;
     padding-bottom: 186px;
     height: 10%;
     margin: 0;
@@ -319,13 +375,13 @@ header #navNav{
 
 .product-identification{
     position: relative;
-    bottom: 130%;
+    bottom: 137%;
     background: white;
     width: 100%;
 }
 
 .product-identification .row{
-    padding: 0;
+    padding-top: 0%!important;
 }
 
 .product-identification .row .col{
@@ -334,8 +390,8 @@ header #navNav{
 
 
 .product-identification .row .col img{ 
-    width: 63%;
-    margin-left: 27%;
+    width: 75%;
+    margin-left: 0%;
 }
 
 .product-identification .row .col .card {
@@ -347,6 +403,10 @@ header #navNav{
     margin-top: 1rem;
     padding: 15px;
     padding-top: 1rem;
+}
+
+.product-identification .row .col .card .card-body h1{
+    padding-top: 0%!important;
 }
 
 .product-identification .heading{
@@ -361,8 +421,8 @@ header #navNav{
 
 .contact-form{
     background: #fff;
-    height: 50%;
-    bottom: -11%;
+    height: 17%;
+    bottom: -4%;
     margin-top: 0%;
     position: relative;
     margin-bottom: 7%;
@@ -370,6 +430,27 @@ header #navNav{
     box-shadow: 0px 0px 6px #00000057;
     z-index: 5;
     transform: scale(1.33);
+}
+
+.contains .explore{
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border-radius: 7px;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: x-large;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    position: relative;
+    left: 45%;
+    font-family: 'Asap-Condensed';
+}
+
+.contains .explore:hover, .contains .explore:active{
+    color:white;
+    background-color: black;
+    text-decoration: none;
 }
 
 .contact-form .form-control{
@@ -383,17 +464,33 @@ header #navNav{
     width: 11%;
     margin-top: -5%;
     background: white;
-    opacity: 0.6;
+    opacity: 1;
 }
 .contact-form form{
+    padding-top: 4%;
     padding: 7%;
 }
+
+.contact-form form h5{
+    font-size: 3.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Asap-Condensed;
+}
+
+.contact-form input, .contact-form textarea{
+    font-family: Asap-Condensed;
+    font-size: 15px;
+}
+
 .contact-form form .row{
     margin-bottom: -7%;
+    padding: 3% 4% 4%;
 }
+
 .contact-form h3{
     margin-bottom: 3%;
-    margin-top: -2%;
+    margin-top: -5%;
     text-align: center;
     text-transform: uppercase;
     color: grey;
@@ -405,7 +502,7 @@ header #navNav{
     border: none;
     border-radius: 1rem;
     padding: 4.5%;
-    background: grey;
+    background: black;
     text-transform: uppercase;
     box-shadow: 0px 0px 6px #6c757d;
     font-weight: 400;
@@ -419,7 +516,7 @@ header #navNav{
     position: relative;
     background: white;
     top: 95%;
-    height: 991px;
+    height: 25%;
     padding-top: 5%;
     width: 100%;
 }
@@ -453,13 +550,13 @@ header #navNav{
 
 /* 3 D Model*/
 .model3d{
-    width: 100%;
-    height: 100%;
-    right: 0%;
-    position: absolute;
+    width: 40%;
+    height: 47%;
+    left: 55%;
+    position: relative;
     transform: scale(0.9);
     animation-name: move;
-    animation-duration: 5s;  
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -467,6 +564,111 @@ header #navNav{
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
+}
+
+.firstsection .description-of-product {
+    width: 50%;
+    position: absolute;
+    margin-top: 0%;
+    font-family: 'Asap-Condensed';
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+.firstsection .description-of-product h1{
+    width: 100%;
+    font-weight: 600;
+}
+
+.firstsection .description-of-product h2{
+    color: grey;
+    font-weight: bold;
+}
+
+.firstsection .description-of-product h5{
+    font-family: 'Asap-Condensed';
+
+}
+
+
+.firstsection .description-of-product p{
+    font-weight: 500;
+    text-align: justify;
+    color: #666;
+}
+
+.firstsection .description-of-product .related-text{
+    margin-top: 6%;
+    border-top: 1px solid grey;
+    text-align: justify;
+    padding-right: 15%;
+}
+
+.firstsection .description-of-product input{
+    padding: 1%;
+    margin-top: 5%;
+    font-family: 'Asap-Condensed';
+    text-align: center;
+    font-size: 26px;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.firstsection .description-of-product button{
+    margin-left: 3%;
+    border: 0.5px solid grey;
+    padding: 1%;
+    margin-top: -1%;
+    font-family: 'Asap-Condensed';
+    background-color: white!important;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.firstsection .description-of-product button:hover{
+    background-color: #f8f9fa!important;
+
+}
+
+.firstsection  .nav{
+    margin-top: 7%;
+} 
+
+.firstsection  ul .nav-link{
+    font-family: 'Asap-Condensed';
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: #d6d6d6;
+}
+
+.firstsection .nav-tabs .nav-link.active{
+    color: #191a1b;
+    border:none;
+    background:  #f5f5f5;
+}
+
+.firstsection .tab-content .tab-pane p{
+    font-size: 1.2rem;
+    margin-top: 3%;
+    padding-bottom:3%;
+}
+
+.firstsection .tab-content{
+    margin-left: 2%;
+}
+
+.firstsection .some-products h1 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-family: 'Asap-Condensed';
+    font-weight: 700;
+}
+
+.firstsection .some-products .row{
+    padding: 0!important;
 }
 
 .video-overlay {
@@ -520,6 +722,425 @@ div.circTxt {
     color: rgb(14, 13, 13);
 }
 
+.navbar-light .navbar-nav .nav-link, .navbar-brand{
+    font-size: x-large;
+    color: black!important;
+    font-family: Asap-Condensed;
+    padding-right: 26px;
+    text-transform: uppercase;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 5%;
+    width: 13%;
+}
+
+.Section-05{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-color: white;
+}
+
+.Section-05 .row{
+    padding: 0;
+}
+
+.Section-05 #choco-row{
+    background-size: cover;
+    background-image: url(../IMG/flavors/bg/choco/choco.jpg);
+    height: 100%;
+    width: 102%;
+}
+
+.Section-05 .choco-top-left{
+    width: 24.2%;
+    height: auto;
+    position: absolute;
+    top: 6%;
+    left: 0%;
+    z-index: 3;
+}
+
+.Section-05 .choco-left{
+    z-index: 2;
+    position: absolute;
+    margin-top: -4%;
+    left: 0%;
+    width: 32%;
+}
+
+.Section-05 .product-choco-t80{
+    width: 50%;
+    z-index: 4;
+    top: 0%;
+    position: absolute;
+    left: 26%;
+}
+
+.Section-05 .choco-top-right{
+    position: absolute;
+    right: 1%;
+    z-index: 5;
+    width: 27%;
+}
+
+.Section-05 .choco-right{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 6;
+    width: 23%;
+}
+
+.Section-05 .row #choco-flavor {
+    height: 120.9px;
+    width: 170px;
+    top: -20%;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.Section-05 .strawberry-flavor{
+    position: absolute;
+    top: 73%;
+}
+
+.Section-05 .row #img-choco-flavor{
+    width: 70%!important;
+    position: relative;
+    top: -29%;
+}
+
+.Section-05 .row #img-strawberry-flavor {
+    position: relative;
+    top: -29%;
+    width: 20%!important;
+}
+
+.Section-05 .strawberry-bottom-left {
+    z-index: 2;
+    position: relative;
+    width: 32%;
+    top: 27%;
+    z-index: 2;
+    position: absolute;
+    left: 0%;
+    top: 67%;
+    width: 32%;
+}
+
+.Section-05 .strawberry-middle-left{
+    z-index: 2;
+    position: absolute;
+    left: 7%;
+    top: 33%;
+    width: 32%;
+}
+
+
+.Section-05 .top-right-corner {
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    z-index: 5;
+    width: 27%;
+}
+
+.Section-05 .middle-right-corner {
+    position: absolute;
+    right: 7%;
+    top: 45%;
+    z-index: 6;
+    width: 23%;
+}
+
+.Section-05 .bottom-right-corner {
+    position: relative;
+    z-index: 6;
+    width: 23%;
+    left: 77%;
+    margin-top: 39.4%;
+}
+
+.Section-05 .row #choco-flavor .chocolate-active-hover{
+    border: 1px solid #865842;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    background-color: #865842;
+    top: -99%;
+    position: relative;
+    z-index: -1;
+    left: -54%;
+    display: block;
+}
+
+.Section-05 .row #strawberry-flavor .strawberry-active-hover{
+    border: 1px solid #ee919c;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    background-color: #ee919c;
+    top: 30.7%;
+    position: absolute;
+    z-index: -1;
+    left: -11%;
+    display: block;
+    width:29%;
+}
+
+.Section-05 .strawberry-top-left {
+    width: 24.2%;
+    height: auto;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    z-index: 3;
+}
+
+.Section-05 #strawberry-row{
+    background-size: cover;
+    background-image: url(../IMG/flavors/bg/strawberry/1.jpg);
+    height: 100%;
+    width: 102%;
+    position: relative;
+    display: none;
+    top:0%;
+}
+
+.Section-05 #cookie-row{
+    background-size: cover;
+    background-image: url(../IMG/flavors/bg/oreo/bg.png);
+    height: 100%;
+    width: 102%;
+    position: relative;
+    display: none;
+}
+
+.Section-05 #coffee-row{
+    background-size: cover;
+    background-image: url(../IMG/flavors/bg/coffee/bg.png);
+    height: 100%;
+    width: 102%;
+    position: relative;
+    display: none;
+}
+
+.Section-05 #vanilla-row{
+    background-size: cover;
+    background-image: url(../IMG/flavors/bg/vanilla/vanilla.jpg);
+    height: 100%;
+    width: 102%;
+    position: relative;
+    display: none;
+}
+
+.Section-05 .cookie-top-left {
+    width: 24.2%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+
+.Section-05 .cookie-middle-left-1 {
+    width: 21%;
+    z-index: 1;
+    position: absolute;
+    top: 96%;
+    left: 0%;
+}
+
+.Section-05 .cookie-middle-left-2 {
+    width: 22%;
+    z-index: 1;
+    position: absolute;
+    left: 0%;
+    top: 136%;
+}
+
+.Section-05 .cookie-bottom-left {
+    z-index: 10;
+    width: 32%;
+    position: absolute;
+    top: 247%;
+    left: 0%;
+
+}
+
+.Section-05 .top-right-cookie {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    z-index: 5;
+    width: 27%;
+}
+
+.Section-05 .middle-right-cookie {
+    top: 162%;
+    right: 8%;
+    position: absolute;
+    z-index: 6;
+    width: 23%;
+}
+
+.Section-05 .bottom-right-cookie {
+    z-index: 6;
+    width: 15%;
+    top: 304%;
+    right: 1%;
+    position: absolute;
+}
+
+.Section-05 .row #cookie-flavor .cookie-active-hover{
+    border: 1px solid #9c756900;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    top: 47.5%;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(to right, #9c7569, #e6c5b4);
+    left: -11%;
+    display: block;
+    width: 29%;
+}
+
+.Section-05 .coffee-top-left {
+    height: auto;
+    width: 52%;
+    z-index: 3;
+    position: absolute;
+    left: 0%;
+    top: 2%;
+}
+
+.Section-05 .coffee-middle-left {
+    margin-top: 3%;
+    left: 6%;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+}
+
+.Section-05 .top-right-coffee {
+    z-index: 5;
+    width: 27%;
+    position: absolute;
+    margin-top: 3%;
+    right: 0%;
+}
+
+.Section-05 .middle-right-coffee {
+    position: absolute;
+    margin-top: 22%;
+    right: 3%;
+    z-index: 6;
+    width: 23%;
+}
+
+.Section-05 .bottom-right-coffee {
+    position: absolute;
+    margin-top: 34%;
+    right: 1%;
+    z-index: 6;
+    opacity: 1;
+    width: 35%;
+}
+
+.Section-05 .row #coffee-flavor .coffee-active-hover{
+    border: 1px solid #906e3f;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    top: 68.5%;
+    position: absolute;
+    z-index: -1;
+    background-color: #906e3f;
+    left: -11%;
+    display: block;
+    width: 29%;
+}
+
+.Section-05 .row #vanilla-flavor .vanilla-active-hover{
+    border: 1px solid #f1d39c;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    top: 89.5%;
+    position: absolute;
+    z-index: -1;
+    background-color: #f1d39c;
+    left: -11%;
+    display: block;
+    width: 29%;
+}
+
+.Section-05 .vanilla-top-left {
+    height: auto;
+    position: relative;
+    z-index: 3;
+    width: 29%;
+    left: 2%;
+}
+
+.Section-05 .vanilla-middle-left-1 {
+    left: 0%;
+    position: absolute;
+    top: 90%;
+    width: 52%;
+    z-index: 4;
+}
+
+.Section-05 .vanilla-middle-left-2 {
+    z-index: 4;
+    width: 24%;
+    position: absolute;
+    top: 130%;
+    left: 12%;
+}
+
+.Section-05 .vanilla-middle-left-3 {
+    width: 20%;
+    z-index: 5;
+    position: absolute;
+    margin-top: 40.3%;
+    left: 13%;
+}
+
+.Section-05 .top-right-vanilla {
+    position: absolute;
+    top: 22%;
+    right: 0;
+    z-index: 5;
+    width: 39%;
+}
+
+.Section-05 .middle-right-vanilla {
+    z-index: 6;
+    position: absolute;
+    top: 152%;
+    left: 74%;
+    width: 25%;
+}
+
+.Section-05 .bottom-right-vanilla {
+    z-index: 6;
+    opacity: 1;
+    width: 35%;
+    position: absolute;
+    margin-top: 33%;
+    right: 0%;
+}
+
+.Section-05 #img-strawberry-glass:active ~ .Section-05 #choco-row { display: none;}
+
 @keyframes move {
     from {bottom:-93%; opacity: 0.5;}
     to {bottom: 0%; opacity: 1;}
@@ -543,7 +1164,7 @@ div.circTxt {
 
 /* FOOTER */
 footer{
-    background: grey;
+    background: #000000de;
     position: relative;
     top: 73%;
     margin-top: 4rem;
@@ -577,7 +1198,7 @@ footer{
 }
 
 .footer-basic a i{
-    font-size: 69px;
+    font-size: 30px;
     top: 12%;
     position: relative;
 }
@@ -594,8 +1215,8 @@ footer{
   
 .footer-basic .social > a {
     font-size:69px;
-    width: 90px;
-    height: 90px;
+    width: 40px;
+    height: 40px;
     line-height:40px;
     display:inline-block;
     text-align:center;
@@ -616,20 +1237,84 @@ footer{
     padding: 1%;
     font-size: 20px;
     color: white;
-    background: #646464;
+    background: black;
     margin-top: 2%;
+    font-family: Asap-Condensed;
 }
 
+footer .list-inline-item{
+    font-family: Asap-Condensed;
+}
+
+.contains h1{
+    font-size: 4rem;
+    font-family: 'Asap-Condensed';
+    font-weight: 600;
+    text-align: center;
+}
+
+.contains .row{
+    padding-bottom:0%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contains .row .card-deck{
+    width: 100%;
+}
+
+.contains .row .card-deck .card-body h2{
+    font-family: 'Asap-Condensed';
+    font-weight: 300;
+}
+
+.contains .row .card-deck .card-body{
+    background-color: white;
+}
+
+.contains .row .card-deck .card-body h3{
+    font-family: 'Asap-Condensed';
+    font-weight: 800;
+}
 /* Mobile view script style */
 
 .aftervideo{
     position: relative;
-    top: 1.5%;
+    top: 0%;
     width: 100%;
+}
+
+.aftervideo .black-heading h1{
+    text-align: center;
+    padding: 2%;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.aftervideo .black-heading-02 h1{
+    text-align: center;
+    padding: 2%;
+    font-weight: 900;
+    font-size: 32px;
+} 
+
+.aftervideo .black-heading {
+    position: relative;
+    top: 6vh;
+}
+
+.aftervideo .black-heading-02 {
+    position: relative;
+    bottom: 62vh;
 }
 
 .aftervideo .textual {
     padding: 2%;
+}
+
+.aftervideo .carousel {
+    top: 6vh;
+    position: relative;
 }
 
 .aftervideo .textual h3{
@@ -646,6 +1331,12 @@ footer{
     left: 0%;
     top: 0%;
     background-image: url(../IMG/carousel/bg1.jpg);
-    background-size: 100%;
+    background-size: 167%;
     background-repeat: no-repeat;
+}
+
+.aftervideo .carousel-inner .carousel-item .w-100{
+    right: 31%;
+    width: 159%!important;
+    position: relative;
 }
