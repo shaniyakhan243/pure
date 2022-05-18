@@ -17,6 +17,9 @@
     #slide-1 video{
         display: none;
     }
+    body{
+        height:fit-content!important;
+    }
 }
 
 @media (min-width: 767px) {
@@ -1300,7 +1303,6 @@ footer .list-inline-item{
 
 .aftervideo .black-heading {
     position: relative;
-    padding-top: 6vh;
 }
 
 .aftervideo .black-heading-02 {
@@ -1339,4 +1341,8 @@ footer .list-inline-item{
     right: 31%;
     width: 159%!important;
     position: relative;
+}
+
+.aftervideo .mobile-view-video video{
+    width: 46vh;
 }
