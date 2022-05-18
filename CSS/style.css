@@ -1338,9 +1338,9 @@ footer .list-inline-item{
 }
 
 .aftervideo .carousel-inner .carousel-item .w-100{
-    right: 31%;
+    right: 31%!important;
     width: 159%!important;
-    position: relative;
+    position: relative!important;
 }
 
 .aftervideo .mobile-view-video video{
@@ -1348,25 +1348,25 @@ footer .list-inline-item{
 }
 
 .aftervideo .cards .photo01{
-    width: 100%;
+    width: 100%!important;
 }
 
 .aftervideo .cards .photo01 img{
-    width: inherit;
-    padding: 6%;
+    width: inherit!important;
+    padding: 6%!important;
 }
 
 .aftervideo .cards .heading-01{
-    text-align: center;
-    font-weight: 900;
+    text-align: center!important;
+    font-weight: 900!important;
 }
 
 .aftervideo .cards .some-p-text p{
-    padding: 6%;
-    padding-top: 2%;
-    font-size: 14px;
-    text-align: justify;
-    font-weight: 450;
+    padding: 6%!important;
+    padding-top: 2%!important;
+    font-size: 14px!important;
+    text-align: justify!important;
+    font-weight: 450!important;
 }
 
 .aftervideo .row {
