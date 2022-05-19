@@ -1432,3 +1432,28 @@ footer .list-inline-item{
     font-weight: 700!important;
     padding-bottom: 6%!important;
 }
+
+.aftervideo .all-products .heads h1{
+    font-size: 27px!important;
+}
+
+.aftervideo .all-products .certies img{
+    width: 100%;
+}
+
+.aftervideo .contain{
+    padding: 5%;
+}
+
+.aftervideo .contain form{
+    border: 1px solid #80808075;
+    padding: 4%;
+    border-radius: 13px;
+}
+
+.aftervideo .contain form h5{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-bottom: 4%;
+}
