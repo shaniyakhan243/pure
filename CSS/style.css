@@ -21,6 +21,10 @@
         height:fit-content!important;
     }
 
+    .some-products #some-row-4{
+        display: none!important;
+    }
+
     .button-flavors ul{
         list-style-type: none!important;
         z-index: 7!important;
@@ -127,6 +131,10 @@
 
 @media (min-width: 767px) {
     .aftervideo{
+        display: none;
+    }
+
+    .mobile-view-visible{
         display: none;
     }
 }
