@@ -20,6 +20,109 @@
     body{
         height:fit-content!important;
     }
+
+    .button-flavors ul{
+        list-style-type: none!important;
+        z-index: 7!important;
+        position: absolute!important;
+        left: 63%!important;
+        width: 32%!important;
+        margin-top: 21%!important;
+    }
+
+    .Section-05{
+        height: 41%!important;
+    }
+
+    .Section-05 .row{
+        padding-top: 13%!important;
+        display: block;
+    }
+
+    .Section-05 .product-choco-t80 {
+        width: 69%!important;
+        z-index: 4!important;
+        top: 0%!important;
+        position: absolute!important;
+        left: 16%!important;
+        margin-top: 2%!important;
+    }
+    
+    .firstsection .description-of-product h1{
+        font-size: x-large!important;
+    }
+
+    .firstsection .description-of-product h2{
+        font-size: large!important;
+    }
+
+    .firstsection .description-of-product h5{
+        font-size: large!important;
+    }
+
+    .firstsection .description-of-product p{
+        font-size: 10px!important;
+    }
+
+    .firstsection .description-of-product input{
+        margin-left: 2%!important;
+        position: absolute!important;
+        left: 111%!important;
+        top: 73%!important;
+    }
+
+    .firstsection .description-of-product button{
+        margin-left: 2%!important;
+        position: absolute!important;
+        left: 146%!important;
+        margin-top: 31%!important;
+        top: 64%!important;
+    }
+
+    .firstsection .description-of-product .related-text{
+        margin-left: 2%!important;
+        position: absolute!important;
+        left: 108%!important;
+        top: 82%!important;
+        width: 94%!important;
+    }
+
+    .model3d {
+        width: 54%!important;
+        height: 56%!important;
+        left: 50%!important;
+    }
+
+    .tabsnavs{
+        position: relative!important;
+        background: #f5f5f5!important;
+        top: 173px!important;
+    }
+
+    .nav-justified .nav-item {
+        width: 10%!important;
+    }
+
+    .firstsection ul .nav-link{
+        font-size: 1rem!important;
+        padding: 0!important;
+        padding-top: 18px!important;
+        padding-left: 2%!important;
+        padding-bottom: 12%!important;
+    }
+
+    .firstsection .tab-content .tab-pane p {
+        font-size: 1rem!important;
+    }
+
+    .some-products{
+        position: relative!important;
+        top: 173px!important;
+    }
+
+    .card{
+        width: 31rem!important;
+    }
 }
 
 @media (min-width: 767px) {
