@@ -141,6 +141,11 @@
 
 
 @media (max-width: 667px) {
+
+    body{
+        overflow-x: hidden!important;
+    }
+
     .button-flavors ul{
         margin-top: 26%!important;
     }
@@ -197,12 +202,13 @@
         display: flex!important;
         -webkit-box-orient: vertical!important;
         -webkit-box-direction: normal!important;
+        flex-direction: row!important;
     }
 
     .card-img-top {
         position: relative!important;
         top: 2rem!important;
-        left: -2rem!important;
+        left: 1rem!important;
     }
 
     .card-body {
@@ -215,6 +221,10 @@
 
     .card-body h5{
         font-size: 12px!important;
+    }
+
+    .firstsection .some-products .row {
+        width: 100%!important;
     }
 }
 
