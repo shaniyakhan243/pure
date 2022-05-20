@@ -140,7 +140,7 @@
 }
 
 
-@media (min-width: 567px) {
+@media (max-width: 667px) {
     .button-flavors ul{
         margin-top: 26%!important;
     }
