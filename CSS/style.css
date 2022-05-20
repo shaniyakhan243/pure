@@ -1,3 +1,102 @@
+@media  (max-width: 867px){
+    .button-flavors ul{
+        margin-top: 8%!important;
+    }
+
+    .Section-05{
+        height: 43%!important;
+    }
+
+    .firstsection .description-of-product input {
+        position: absolute;
+        left: 27rem;
+        top: 49rem;
+    }
+
+    .firstsection .description-of-product h1{
+        font-size: large!important;
+    }
+
+    .firstsection .description-of-product h5 {
+        font-size: small!important;
+    }
+
+    .firstsection .description-of-product button {
+        position: absolute;
+        left: 34rem;
+        top: 50.5rem;
+    }
+
+    .firstsection .description-of-product .related-text {
+        position: absolute;
+        top: 54rem;
+        padding: 2%;
+        width: 87%;
+        left: 27rem;
+    }
+
+    .model3d {
+        width: 61%;
+        height: 106%;
+        left: 43%;
+    }
+
+    .tabsnavs{
+        top: 4rem;
+    }
+
+    .firstsection .nav-item{
+        width: 10%;
+    }
+
+    .firstsection ul .nav-link {
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+
+    .firstsection .tab-content .tab-pane p{
+        font-size: 10px!important;
+    }
+
+    .card-deck {
+        display: flex!important;
+        -webkit-box-orient: vertical!important;
+        -webkit-box-direction: normal!important;
+        flex-direction: row!important;
+    }
+
+    .card-img-top {
+        position: relative!important;
+        top: 2rem!important;
+        left: 1rem!important;
+    }
+
+    .card-body {
+        padding-top: 5rem!important;
+    }
+
+    .card-title {
+        font-size: 10px!important;
+    }
+
+    .card-body h5{
+        font-size: 12px!important;
+    }
+
+    .firstsection .some-products .row {
+        width: 100%!important;
+    }
+
+    .some-products {
+        position: relative;
+        top: 6rem;
+    }
+}
+
+
 @media (max-width: 767px) {
     .text-bw{
       display: none;
