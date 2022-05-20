@@ -146,7 +146,7 @@
     }
 
     .Section-05{
-        height: 30%!important;
+        height: 40%!important;
     }
 
     .firstsection .description-of-product{
@@ -174,7 +174,7 @@
 
     .firstsection .description-of-product .related-text {
         top: 88%!important;
-        width: 83%!important;
+        width: 78%!important;
     }
 
     .model3d{
@@ -182,7 +182,7 @@
     }
 
     .tabsnavs{
-        top: 163px!important;
+        top: 272px!important;
     }
 
     .firstsection ul .nav-link {
@@ -217,6 +217,7 @@
         font-size: 12px!important;
     }
 }
+
 @font-face{
     font-family:Handwritten;
     src: url(../fonts/handwritten.ttf);
