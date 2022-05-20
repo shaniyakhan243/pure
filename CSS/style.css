@@ -773,6 +773,7 @@ a:hover, a:active{
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
+    width: 100%;
 }
 
 .firstsection .description-of-product {
