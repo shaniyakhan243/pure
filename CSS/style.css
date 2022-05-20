@@ -226,6 +226,11 @@
     .firstsection .some-products .row {
         width: 100%!important;
     }
+
+    .some-products {
+        position: relative!important;
+        top: 284px!important;
+    }
 }
 
 @font-face{
