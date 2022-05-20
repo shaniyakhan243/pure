@@ -139,6 +139,84 @@
     }
 }
 
+
+@media (min-width: 567px) {
+    .button-flavors ul{
+        margin-top: 26%!important;
+    }
+
+    .Section-05{
+        height: 30%!important;
+    }
+
+    .firstsection .description-of-product{
+        width: 57%!important;
+    }
+
+    .firstsection .description-of-product h1{
+        font-size: large!important;
+    }
+
+    .firstsection .description-of-product h5 {
+        font-size: small!important;
+    }
+
+    .firstsection .description-of-product input {
+        top: 80%!important;
+        font-size: 17px!important;
+    }
+
+    .firstsection .description-of-product button {
+        top: 71%!important;
+        left: 132%!important;
+        font-size: 17px!important;
+    }
+
+    .firstsection .description-of-product .related-text {
+        top: 88%!important;
+        width: 83%!important;
+    }
+
+    .model3d{
+        width: 59%!important;
+    }
+
+    .tabsnavs{
+        top: 163px!important;
+    }
+
+    .firstsection ul .nav-link {
+        font-size: 12px!important;
+    }
+
+    .firstsection .tab-content .tab-pane p{
+        font-size: 10px!important;
+    }
+
+    .card-deck {
+        display: flex!important;
+        -webkit-box-orient: vertical!important;
+        -webkit-box-direction: normal!important;
+    }
+
+    .card-img-top {
+        position: relative!important;
+        top: 2rem!important;
+        left: -2rem!important;
+    }
+
+    .card-body {
+        padding-top: 5rem!important;
+    }
+
+    .card-title {
+        font-size: 10px!important;
+    }
+
+    .card-body h5{
+        font-size: 12px!important;
+    }
+}
 @font-face{
     font-family:Handwritten;
     src: url(../fonts/handwritten.ttf);
