@@ -239,7 +239,7 @@
 }
 
 body{
-    overflow: scroll!important;
+    overflow: scroll;
 }
 
 #model {
