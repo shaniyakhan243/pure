@@ -57,10 +57,6 @@
         padding-bottom: 11%!important;
     }
 
-    .firstsection .tab-content .tab-pane p{
-        font-size: 10px!important;
-    }
-
     .card-deck {
         display: flex!important;
         -webkit-box-orient: vertical!important;
