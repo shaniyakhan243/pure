@@ -1,20 +1,32 @@
-@media  (max-width: 867px){
+@media  (max-width: 1200px){
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: large!important;
+    }
+
     .button-flavors ul{
         margin-top: 8%!important;
+        width: 32%!important;
+    }
+
+    .Section-05 .product-choco-t80{
+        width: 61%!important;
+        left: 19%!important;
+        top: 2%!important;
     }
 
     .Section-05{
-        height: 43%!important;
+        height: 36%!important;
     }
 
     .firstsection .description-of-product input {
         position: absolute!important;
-        left: 27rem!important;
+        left: 48rem!important;
         top: 49rem!important;
     }
 
     .firstsection .description-of-product h1{
-        font-size: large!important;
+        font-size: xx-large!important;
     }
 
     .firstsection .description-of-product h5 {
@@ -23,26 +35,27 @@
 
     .firstsection .description-of-product button {
         position: absolute!important;
-        left: 34rem!important;
-        top: 50.5rem!important;
+        left: 53rem!important;
+        top: 51.3rem!important;
     }
 
     .firstsection .description-of-product .related-text {
         position: absolute!important;
-        top: 54rem!important;
+        top: 47rem!important;
         padding: 2%!important;
         width: 87%!important;
-        left: 27rem!important;
+        left: 4rem!important;
     }
 
     .model3d {
         width: 61%!important;
-        height: 106%!important;
-        left: 43%!important;
+        height: 42%!important;
+        left: 44%!important;
     }
 
     .tabsnavs{
-        top: 4rem!important;
+        top: 6rem!important;
+        position: relative;
     }
 
     .firstsection .nav-item{
@@ -62,12 +75,118 @@
         -webkit-box-orient: vertical!important;
         -webkit-box-direction: normal!important;
         flex-direction: row!important;
+        margin: 0!important;
     }
 
     .card-img-top {
         position: relative!important;
         top: 2rem!important;
-        left: 1rem!important;
+        left: -5rem!important;
+        width: 165%!important;
+    }
+
+    .card-body {
+        padding-top: 5rem!important;
+    }
+
+    .card-title {
+        font-size: 16px!important;
+    }
+
+    .card-body h5{
+        font-size: 24px!important;
+    }
+
+    .firstsection .some-products .row {
+        width: 100%!important;
+    }
+
+    .some-products {
+        position: relative!important;
+        top: 7rem!important;
+    }
+}
+
+@media  (max-width: 867px){
+    .button-flavors ul{
+        margin-top: 8%!important;
+        width: 38%!important;
+    }
+
+    .Section-05 .product-choco-t80{
+        width: 61%!important;
+        left: 19%!important;
+        top: 2%!important;
+    }
+
+    .Section-05{
+        height: 34%!important;
+    }
+
+    .firstsection .description-of-product input {
+        position: absolute!important;
+        left: 27rem!important;
+        top: 38rem!important;
+    }
+
+    .firstsection .description-of-product h1{
+        font-size: large!important;
+    }
+
+    .firstsection .description-of-product h5 {
+        font-size: small!important;
+    }
+
+    .firstsection .description-of-product button {
+        position: absolute!important;
+        left: 34rem!important;
+        top: 39.5rem!important;
+    }
+
+    .firstsection .description-of-product .related-text {
+        position: absolute!important;
+        top: 44rem!important;
+        padding: 2%!important;
+        width: 87%!important;
+        left: 27rem!important;
+    }
+
+    .model3d {
+        width: 61%!important;
+        height: 42%!important;
+        left: 44%!important;
+    }
+
+    .tabsnavs{
+        top: 17rem!important;
+        position: relative;
+    }
+
+    .firstsection .nav-item{
+        width: 10%!important;
+    }
+
+    .firstsection ul .nav-link {
+        font-size: 18px!important;
+        text-align: center!important;
+        padding: 0!important;
+        padding-top: 11%!important;
+        padding-bottom: 11%!important;
+    }
+
+    .card-deck {
+        display: flex!important;
+        -webkit-box-orient: vertical!important;
+        -webkit-box-direction: normal!important;
+        flex-direction: row!important;
+        margin: 0!important;
+    }
+
+    .card-img-top {
+        position: relative!important;
+        top: 2rem!important;
+        left: -3rem!important;
+        width: 165%!important;
     }
 
     .card-body {
@@ -88,7 +207,7 @@
 
     .some-products {
         position: relative!important;
-        top: 6rem!important;
+        top: 18rem!important;
     }
 }
 
