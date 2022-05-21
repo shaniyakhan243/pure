@@ -1,3 +1,20 @@
+@media  (max-width: 1400px){
+    .button-flavors ul{
+        margin-top: 14%!important;
+    }
+
+    .Section-05{
+        width: 100%!important;
+        height: 100%!important;
+        top: 7vh!important;
+    }
+
+    .Section-05 .product-choco-t80{
+        width: 61%!important;
+        margin-top: 4%!important;
+    }
+}
+
 @media  (max-width: 1200px){
 
     .navbar-light .navbar-nav .nav-link{
