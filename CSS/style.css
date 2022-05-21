@@ -11,7 +11,12 @@
 
     .Section-05 .product-choco-t80{
         width: 61%!important;
-        margin-top: 4%!important;
+        margin-top: 6%!important;
+        left: 16%!important;
+    }
+
+    .model3d {
+        height: 100%!important;
     }
 }
 
