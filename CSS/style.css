@@ -175,7 +175,7 @@
 
     .model3d {
         width: 61%!important;
-        height: 42%!important;
+        height: 68%!important;
         left: 44%!important;
     }
 
@@ -995,7 +995,7 @@ a:hover, a:active{
 /* 3 D Model*/
 .model3d{
     width: 40%;
-    height: 100%!important;
+    height: 100%;
     left: 55%;
     position: relative;
     transform: scale(0.9);
