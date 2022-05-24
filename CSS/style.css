@@ -1245,7 +1245,7 @@ div.circTxt {
 .Section-05 .product-choco-t80{
     width: 50%;
     z-index: 4;
-    top: -38%;
+    top: -37vh;
     position: relative;
     left: 20%;
 }
@@ -1295,36 +1295,32 @@ div.circTxt {
 .Section-05 .strawberry-bottom-left {
     z-index: 2;
     position: relative;
-    width: 32%;
-    top: 27%;
-    z-index: 2;
-    position: absolute;
-    left: 0%;
-    top: 67%;
+    left: -57%;
+    top: 63vh;
     width: 32%;
 }
 
 .Section-05 .strawberry-middle-left{
     z-index: 2;
-    position: absolute;
-    left: 7%;
-    top: 33%;
+    position: relative;
+    left: -22%;
+    top: 31vh;
     width: 32%;
 }
 
 
 .Section-05 .top-right-corner {
-    position: absolute;
-    right: 1%;
-    top: 4%;
+    position: relative;
+    right: -22%;
+    top: -59vh;
     z-index: 5;
     width: 27%;
 }
 
 .Section-05 .middle-right-corner {
-    position: absolute;
-    right: 7%;
-    top: 45%;
+    position: relative;
+    right: -67%;
+    top: -83vh;
     z-index: 6;
     width: 23%;
 }
@@ -1333,8 +1329,8 @@ div.circTxt {
     position: relative;
     z-index: 6;
     width: 23%;
-    left: 77%;
-    margin-top: 39.4%;
+    left: 54%;
+    top: -45.5vh;
 }
 
 .Section-05 .row #choco-flavor .chocolate-active-hover{
@@ -1367,7 +1363,7 @@ div.circTxt {
 .Section-05 .strawberry-top-left {
     width: 24.2%;
     height: auto;
-    position: absolute;
+    position: relative;
     top: 12%;
     left: 0%;
     z-index: 3;
