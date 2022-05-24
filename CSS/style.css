@@ -1228,39 +1228,40 @@ div.circTxt {
 .Section-05 .choco-top-left{
     width: 24.2%;
     height: auto;
-    position: absolute;
-    top: 6%;
+    top: -5%;
     left: 0%;
     z-index: 3;
+    position: relative;
 }
 
 .Section-05 .choco-left{
     z-index: 2;
-    position: absolute;
-    margin-top: -4%;
-    left: 0%;
+    top: -2%;
+    left: -25%;
     width: 32%;
+    position: relative;
 }
 
 .Section-05 .product-choco-t80{
     width: 50%;
     z-index: 4;
-    top: 0%;
-    position: absolute;
-    left: 26%;
+    top: -38%;
+    position: relative;
+    left: 20%;
 }
 
 .Section-05 .choco-top-right{
-    position: absolute;
-    right: 1%;
+    position: relative;
+    right: -22%;
     z-index: 5;
+    top: -33%;
     width: 27%;
 }
 
 .Section-05 .choco-right{
-    position: absolute;
-    right: 0%;
-    top: 0%;
+    position: relative;
+    right: -77%;
+    top: -67%;
     z-index: 6;
     width: 23%;
 }
