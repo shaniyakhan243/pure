@@ -474,6 +474,23 @@
     }
 }
 
+@media (max-width: 469px){
+    .Section-05 {
+        height: 39%!important;
+    }
+
+    .model3d{
+        height: 63%!important;
+    }
+
+    .firstsection .description-of-product .related-text {
+        width: 70%!important;
+    }
+}
+
+
+
+
 @font-face{
     font-family:Handwritten;
     src: url(../fonts/handwritten.ttf);
