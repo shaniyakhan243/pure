@@ -44,7 +44,7 @@
     .firstsection .description-of-product input {
         position: absolute!important;
         left: 48rem!important;
-        top: 49rem!important;
+        top: 55rem!important;
     }
 
     .firstsection .description-of-product h1{
@@ -58,12 +58,12 @@
     .firstsection .description-of-product button {
         position: absolute!important;
         left: 53rem!important;
-        top: 51.3rem!important;
+        top: 57.3rem!important;
     }
 
     .firstsection .description-of-product .related-text {
         position: absolute!important;
-        top: 47rem!important;
+        top: 54rem!important;
         padding: 2%!important;
         width: 87%!important;
         left: 4rem!important;
