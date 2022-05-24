@@ -383,7 +383,9 @@
     }
 
     .button-flavors ul{
-        margin-top: 26%!important;
+        margin-top: 21%!important;
+        left: 63%!important;
+        width: 47%!important;
     }
 
     .Section-05{
@@ -408,7 +410,7 @@
     }
 
     .firstsection .description-of-product button {
-        top: 71%!important;
+        top: 62%!important;
         left: 132%!important;
         font-size: 17px!important;
     }
@@ -416,14 +418,17 @@
     .firstsection .description-of-product .related-text {
         top: 88%!important;
         width: 78%!important;
+        left: 101%!important;
     }
 
     .model3d{
         width: 59%!important;
+        height: 47%!important;
+        left: 50%!important;
     }
 
     .tabsnavs{
-        top: 272px!important;
+        top: 100px!important;
     }
 
     .firstsection ul .nav-link {
@@ -465,7 +470,7 @@
 
     .some-products {
         position: relative!important;
-        top: 284px!important;
+        top: 103px!important;
     }
 }
 
