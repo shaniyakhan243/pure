@@ -25,6 +25,10 @@
         font-size: xxx-large!important;
     }
 
+    .aftervideo .contain .row {
+        padding: 0%!important;
+    }
+
     .aftervideo .carousel-inner{
         background-size: 100%;
     }
@@ -48,6 +52,13 @@
 
     }
 
+    .form-control{
+        font-size: 1.7rem!important;
+    }
+
+    .form-group .btnContact{
+        font-size: large!important;
+    }
     .text-bw{
         display: none;
     }
