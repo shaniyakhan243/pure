@@ -365,7 +365,7 @@
     }
 }
 
-@media (min-width: 867px) {
+@media (min-width: 1200px){
     .aftervideo{
         display: none;
     }
