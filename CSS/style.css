@@ -1556,9 +1556,9 @@ div.circTxt {
 }
 
 .Section-05 .vanilla-middle-left-1 {
-    left: 0%;
-    position: absolute;
-    top: 90%;
+    left: -25%;
+    position: relative;
+    top: 48vh;
     width: 52%;
     z-index: 4;
 }
@@ -1566,42 +1566,41 @@ div.circTxt {
 .Section-05 .vanilla-middle-left-2 {
     z-index: 4;
     width: 24%;
-    position: absolute;
-    top: 130%;
-    left: 12%;
+    position: relative;
+    top: -37vh;
+    left: 15%;
 }
 
 .Section-05 .vanilla-middle-left-3 {
     width: 20%;
     z-index: 5;
-    position: absolute;
-    margin-top: 40.3%;
-    left: 13%;
+    position: relative;
+    left: -24%;
+    top: -10vh;
 }
 
 .Section-05 .top-right-vanilla {
-    position: absolute;
-    top: 22%;
-    right: 0;
+    position: relative;
+    top: -145vh;
+    right: -61%;
     z-index: 5;
     width: 39%;
 }
 
 .Section-05 .middle-right-vanilla {
     z-index: 6;
-    position: absolute;
-    top: 152%;
-    left: 74%;
+    position: relative;
+    top: -111vh;
+    left: 36%;
     width: 25%;
 }
 
 .Section-05 .bottom-right-vanilla {
     z-index: 6;
-    opacity: 1;
     width: 35%;
-    position: absolute;
-    margin-top: 33%;
-    right: 0%;
+    position: relative;
+    right: -4%;
+    top: -90vh;
 }
 
 .Section-05 #img-strawberry-glass:active ~ .Section-05 #choco-row { display: none;}
