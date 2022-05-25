@@ -186,6 +186,7 @@
     .some-products {
         position: relative!important;
         top: 7rem!important;
+        display: none;
     }
 }
 
