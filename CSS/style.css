@@ -67,6 +67,10 @@
           display: none;
     }
 
+    .navbar-brand{
+        padding-top: 1.3125rem!important;
+    }
+   
     .navbar-light .navbar-nav .nav-link{
         font-size: large!important;
     }
