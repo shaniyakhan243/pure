@@ -1228,7 +1228,7 @@ div.circTxt {
 .Section-05 .choco-top-left{
     width: 24.2%;
     height: auto;
-    top: -5%;
+    top: -19vh;
     left: 0%;
     z-index: 3;
     position: relative;
@@ -1236,7 +1236,7 @@ div.circTxt {
 
 .Section-05 .choco-left{
     z-index: 2;
-    top: -2%;
+    top: -6vh;
     left: -25%;
     width: 32%;
     position: relative;
@@ -1254,14 +1254,14 @@ div.circTxt {
     position: relative;
     right: -22%;
     z-index: 5;
-    top: -33%;
+    top: -106vh;
     width: 27%;
 }
 
 .Section-05 .choco-right{
     position: relative;
     right: -77%;
-    top: -67%;
+    bottom: 218.5vh;
     z-index: 6;
     width: 23%;
 }
