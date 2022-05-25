@@ -1481,15 +1481,15 @@ div.circTxt {
     height: auto;
     width: 52%;
     z-index: 3;
-    position: absolute;
+    position: relative;
     left: 0%;
-    top: 2%;
+    top: 9vh;
 }
 
 .Section-05 .coffee-middle-left {
-    margin-top: 3%;
+    margin-top: -26%;
     left: 6%;
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 80%;
 }
@@ -1497,23 +1497,23 @@ div.circTxt {
 .Section-05 .top-right-coffee {
     z-index: 5;
     width: 27%;
-    position: absolute;
-    margin-top: 3%;
-    right: 0%;
+    top: -124vh;
+    position: relative;
+    right: -21%;
 }
 
 .Section-05 .middle-right-coffee {
-    position: absolute;
-    margin-top: 22%;
-    right: 3%;
+    position: relative;
+    right: -65%;
     z-index: 6;
+    bottom: 162vh;
     width: 23%;
 }
 
 .Section-05 .bottom-right-coffee {
-    position: absolute;
-    margin-top: 34%;
-    right: 1%;
+    position: relative;
+    right: -41%;
+    bottom: 125vh;
     z-index: 6;
     opacity: 1;
     width: 35%;
