@@ -1874,13 +1874,13 @@ footer .list-inline-item{
 .aftervideo .cards .some-p-text p{
     padding: 6%!important;
     padding-top: 2%!important;
-    font-size: 14px!important;
+    font-size: 14px;
     text-align: justify!important;
     font-weight: 450!important;
 }
 
 .aftervideo .row {
-    padding: 0%!important;
+    padding: 0%;
 }
 
 .aftervideo .row .col img {
