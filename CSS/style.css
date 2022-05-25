@@ -22,6 +22,25 @@
 
 @media  (max-width: 1200px){
 
+    .text-bw{
+        display: none;
+    }
+      .parallax-elements{
+          display: none;
+    }
+        #carousel{
+          display: none;
+    }
+      .information{
+          display: none;
+    }
+      .contains{
+          display: none;
+    }
+      #slide-1 video{
+          display: none;
+    }
+
     .navbar-light .navbar-nav .nav-link{
         font-size: large!important;
     }
