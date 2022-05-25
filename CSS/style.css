@@ -1411,45 +1411,46 @@ div.circTxt {
     height: auto;
     position: relative;
     z-index: 3;
+    top: 1vh;
 }
 
 .Section-05 .cookie-middle-left-1 {
     width: 21%;
     z-index: 1;
-    position: absolute;
-    top: 96%;
-    left: 0%;
+    position: relative;
+    top: 43vh;
+    left: -25%;
 }
 
 .Section-05 .cookie-middle-left-2 {
     width: 22%;
     z-index: 1;
-    position: absolute;
-    left: 0%;
-    top: 136%;
+    position: relative;
+    left: -47%;
+    top: 28vh;
 }
 
 .Section-05 .cookie-bottom-left {
-    z-index: 10;
+    z-index: 1;
     width: 32%;
-    position: absolute;
-    top: 247%;
-    left: 0%;
+    position: relative;
+    top: 63vh;
+    left: -67%;
 
 }
 
 .Section-05 .top-right-cookie {
-    position: absolute;
-    top: 20%;
-    right: 0%;
+    position: relative;
+    top: -60vh;
+    right: -22%;
     z-index: 5;
     width: 27%;
 }
 
 .Section-05 .middle-right-cookie {
-    top: 162%;
-    right: 8%;
-    position: absolute;
+    top: -87vh;
+    right: -76%;
+    position: relative;
     z-index: 6;
     width: 23%;
 }
@@ -1457,9 +1458,9 @@ div.circTxt {
 .Section-05 .bottom-right-cookie {
     z-index: 6;
     width: 15%;
-    top: 304%;
-    right: 1%;
-    position: absolute;
+    top: -53vh;
+    right: -56%;
+    position: relative;
 }
 
 .Section-05 .row #cookie-flavor .cookie-active-hover{
