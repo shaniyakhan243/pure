@@ -186,6 +186,9 @@
     .some-products {
         position: relative!important;
         top: 7rem!important;
+    }
+
+    .some-products .mobile-view-visible{
         display: none;
     }
 }
