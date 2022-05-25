@@ -300,6 +300,11 @@
 
 
 @media (max-width: 767px) {
+
+    .some-products .mobile-view-visible {
+        display: block!important;
+    }
+
     .text-bw{
       display: none;
     }
