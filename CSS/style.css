@@ -136,6 +136,7 @@
     }
 
     .tabsnavs{
+        overflow-x: clip;
         top: 13rem!important;
         position: relative;
     }
