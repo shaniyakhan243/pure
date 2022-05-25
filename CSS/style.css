@@ -207,7 +207,7 @@
     .card-img-top {
         position: relative!important;
         top: 2rem!important;
-        left: -3rem!important;
+        left: 0rem!important;
         width: 165%!important;
     }
 
