@@ -20,7 +20,17 @@
     }
 }
 
+@media (min-width: 1200px){
+    .section-05-mobile-tab-view{
+        display: none;
+    }
+}
 @media  (max-width: 1200px){
+
+    .Section-05{
+        display: none;
+    }
+
     .aftervideo .black-heading h1{
         font-size: xxx-large!important;
     }
