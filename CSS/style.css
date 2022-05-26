@@ -37,6 +37,7 @@
 
     .section-05-mobile-tab-view .row{
         display: none;
+        padding-bottom: 3%;
     }
     .aftervideo .black-heading h1{
         font-size: xxx-large!important;
@@ -104,8 +105,8 @@
     }
 
     .button-flavors ul{
-        margin-top: 8%!important;
-        width: 32%!important;
+        margin-top: 7%!important;
+        width: 38%!important;
     }
 
     .Section-05 .product-choco-t80{
