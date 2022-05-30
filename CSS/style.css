@@ -423,7 +423,7 @@
 
     .tabsnavs{
         position: relative!important;
-        background: #f5f5f5!important;
+        background: #ffffff!important;
         top: 100px!important;
     }
 
@@ -2005,4 +2005,53 @@ footer .list-inline-item{
     font-size: 28px;
     text-transform: uppercase;
     padding-bottom: 4%;
+}
+
+.coll-right-align{
+    text-align:right; 
+    padding: 0;
+}
+
+.table {
+    border: 2px double black!important; 
+    padding:0.5%; 
+    background-color: white; 
+    margin: 0%!important;
+}
+
+.table .table table{
+    border: 15px double white!important; 
+    margin: 0%;
+}
+
+.table .table table tbody tr{
+    padding: 0;
+}
+
+.table .table table tbody tr td{
+    padding: 0;
+}
+
+.table .table table tbody .bold-border{
+    padding: 0; 
+    border-top: 5px solid black;
+}
+
+.table .table table tbody .border-bottoms{
+    border-bottom: 2px solid black;
+} 
+
+.table .table table tbody tr td span p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Asap-Condensed';
+    padding: 0!important;
+    margin: 0;
+}
+
+.img-for-graph{
+    width: 65%;
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 1%;
 }
